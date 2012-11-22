@@ -1,0 +1,188 @@
+/* FORMATS */
+html,body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline
+}
+
+div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,pre,a,abbr,acronym,address,code,del,dfn,em,img,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,caption,tbody,tfoot,thead,tr
+  {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline
+}
+
+blockquote,q {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  quotes: "" ""
+}
+
+blockquote:before,q:before,blockquote:after,q:after {
+  content: ""
+}
+
+th,td,caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+ul {
+  list-style: none
+}
+
+body * {
+  outline: 0;
+  /*display: block;*/
+}
+
+/* END FORMATS */
+
+
+
+
+
+
+
+
+
+
+
+body {
+    /*background: url("../../../bundles/webalibresecciones/images/base/fondo_gris.jpg") repeat scroll 0 0 #fbd19e;*/
+    color: #000000;
+    background-color: #FFFFFF;
+    font-family: arial, Times New Roman;
+    /*font-size: 13px;*/
+    /*margin: 20px 0 0 0;*/
+    padding: 0;
+    display: block;
+    
+}
+
+.out-container {
+  margin: 0 auto 0 auto;
+}
+
+.out-container .header {
+  background: url("../../../bundles/vaxfront/images/base/pattern-header.jpg") repeat-x scroll 0 0 #FFFFFF;
+  /*height: 400px;*/
+  float: left;
+  width: 100%;
+}
+
+.out-container .header .inner-header {
+  width: 960px;
+  margin: 0 auto 10px auto;
+  /*padding: 5px 0;*/
+  /*border: 1px solid #dbd7de;*/
+  /*-moz-border-radius: 15px;*/
+  /*border-radius: 15px;*/
+  /*background-color: #dbd7de;*/
+
+}
+
+.out-container .header .inner-header .logo {
+  width: 204px;  /*ancho del logo*/
+  float: left;
+
+}
+
+.out-container .header .inner-header .logo a{
+  background: url("../../../bundles/vaxfront/images/base/logo_nuevo.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 71px;
+  /*height: 84px;*/
+  /*text-indent: -9999px;*/
+  /*width: 204px;*/
+  width: 225px;
+  
+  margin: 20px 0 0 0;
+
+}
+
+
+/*facebook*/
+
+.out-container .header .inner-header .like-facebook {
+  float: right;
+  margin: 30px 60px 0 0;
+}
+
+div.uiIconText span {
+  color: #AEAEAE !important;
+}
+
+
+
+
+
+
+
+
+
+
+/*MENUES*/
+
+.out-container .header .inner-header .nav-container {
+    /*width: 100%;*/
+    float: right;
+    margin: 80px 10px 0 0;
+    text-decoration: none;
+
+}
+
+.out-container .header .inner-header .nav-container div {
+    /*float: left;*/
+    /*margin: 0 auto 0 100px;*/
+    width: 100%;
+    font-family: 'Quantico', arial;
+    font-size: 16px;
+    color: #aeaeae;
+}

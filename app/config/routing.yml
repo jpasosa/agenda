@@ -1,3 +1,7 @@
+agenda_backend:
+    resource: "@AgendaBackendBundle/Resources/config/routing.yml"
+    prefix:   /
+
 agenda_user:
     resource: "@AgendaUserBundle/Resources/config/routing.yml"
     prefix:   /agenda

@@ -1,0 +1,7 @@
+parameters:
+#    agenda_backend.example.class: Agenda\BackendBundle\Example
+
+services:
+#    agenda_backend.example:
+#        class: %agenda_backend.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
